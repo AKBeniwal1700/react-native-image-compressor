@@ -1,6 +1,6 @@
 {
   "name": "@akbeniwal/react-native-image-compressor",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A lightweight image compression utility for React Native with quality-based and target-size-based compression.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -19,7 +19,14 @@
   ],
   "author": "Abhishek Beniwal",
   "license": "MIT",
-  "homepage": "https://www.npmjs.com/package/@akbeniwal/react-native-image-compressor",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AKBeniwal1700/react-native-image-compressor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AKBeniwal1700/react-native-image-compressor/issues"
+  },
+  "homepage": "https://github.com/AKBeniwal1700/react-native-image-compressor#readme",
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "yarn build"
@@ -30,9 +37,7 @@
     "react-native-compressor": ">=1.10.0"
   },
   "devDependencies": {
+    "react-native-compressor": "^1.18.2",
     "typescript": "^6.0.3"
-  },
-  "dependencies": {
-    "react-native-compressor": "^1.18.2"
   }
 }
